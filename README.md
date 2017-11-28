@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/lifeofguenter/ansible-role-reset-locale.svg?branch=master)](https://travis-ci.org/lifeofguenter/ansible-role-reset-locale)
 
-# lifeofguenter.reset-locale for Ansible Galaxy
+# lifeofguenter.reset-locale
 
 ## Summary
 
@@ -64,9 +64,12 @@ Simple example:
 
 ## Dependencies
 
-None.
-
+none
 
 ## License
 
 Licensed under the MIT License. See the [LICENSE file](LICENSE) for details.
+
+## Author Information
+
+[Gunter Grodotzki](https://lifeofguenter.de)

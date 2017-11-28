@@ -1,5 +1,13 @@
 ---
 
+- name: install locales
+  apt:
+    name: locales
+    state: present
+    update_cache: yes
+    cache_valid_time: 3600
+  become: yes
+
 - name: create locales
   locale_gen:
     name: "{{ locale }}"
